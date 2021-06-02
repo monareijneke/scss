@@ -1,0 +1,15 @@
+.contact {
+    padding: $padding;
+    .wrapper .contact {
+      display: flex;
+      flex-wrap: wrap;
+      .form-wrapper,
+      .contact-wrapper {
+      padding: $padding;
+      }
+      .copy-wrapper {
+          padding-left: $padding;
+      }
+    }
+  }
+  

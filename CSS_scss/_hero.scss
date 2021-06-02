@@ -1,0 +1,18 @@
+.hero {
+    padding: $padding;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: $backg-color1;
+      .hero-img img {
+          display: block;
+          height: auto;
+          width: 15.5em;
+      }
+      .hero-text {
+          max-width: 700px;
+          text-align: center;
+          padding: $padding;
+        }
+  }
+  
